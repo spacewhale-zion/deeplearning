@@ -1,0 +1,82 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+.python-version
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+MANIFEST
+
+# Test, coverage, and type-checker output
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.hypothesis/
+
+# Jupyter and interactive Python files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Machine-learning outputs and large local data
+data/
+datasets/
+models/
+checkpoints/
+logs/
+runs/
+outputs/
+artifacts/
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
